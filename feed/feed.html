@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MY Book's</title>
+		<link rel="stylesheet" type="text/css" href="../css/book.css">
+		<link rel="stylesheet" type="text/css" href="feed.css">
+		<script src="../js/myBook.js"></script>
+	</head>
+	<body>
+		<div class="container clearfix">
+			<header class="clearfix">
+				<div class="logo"><a>My Book's</a></div>
+				<ul class="loginBar">
+					<li><button onclick="logOut()">Sign Out</button></li>
+				</ul>
+			</header>
+			<div class="clearfix">
+			<nav class="clearfix">
+				<ul>
+					<li class="active"><a href="feed.html">Feed</a></li>
+					<li><a href="../profile/profile.html">Profile</a></li>
+				</ul>
+			</nav>
+			<section>
+				<article class="feedblock">
+					<input type="text" class="postText" id="postText" placeHolder="Text feed or URL feed">
+					<button class="searchBtn" onclick="createFeed()">Submit</button>
+					<ul class="feedList" id="feedContainer">
+						
+					</ul>
+				</article>
+			</section>
+			</div>
+			<footer>Talent Improving exercise, OFS</footer>
+		</div>
+	</body>
+
+</html>

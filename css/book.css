@@ -1,0 +1,128 @@
+*{ 
+	margin:0;
+	padding:0;
+	outline:none;
+}
+body{
+    background: url("../images/content.png") repeat scroll 0 0 #fdf7d7;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    width: 100%;
+}
+ul{
+	list-style:none;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+button{
+	cursor:pointer;
+}
+sup{
+	color:#f00;
+}
+.inValidMsg{
+	color:#f00;
+	font-size:11px;
+	margin-top:5px;
+}
+.container{
+  
+    margin: 0 auto;
+    min-height: 630px;
+    width: 100%
+}
+header{
+    background: url("../images/head.png") repeat scroll 0 0;
+	height:100px;
+	
+}
+.logo{
+	color:#fff;
+	float:left;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size:2em;
+	font-weight:bold;
+	margin:15px;
+}
+.loginBar{
+	
+	float:right;
+	padding:15px;
+	margin:0 15px; 0 0;
+}
+.loginBar li{
+	display:inline;
+}
+.loginBar input[type="text"],.loginBar input[type="password"]{
+	border:none;
+	background:#fff;
+	padding:10px;
+}
+.loginBar button{
+	background-color:#fff;
+	border:none;
+	padding:10px;
+}
+.coverImg{
+	margin:0 auto;
+	width:987px;
+}
+.coverImg img{
+	width:987px;
+	max-height:100%;
+	margin:8px 0;
+	height:auto;
+}
+nav{
+	
+    float: left;
+    width: 19%;
+}
+nav ul{
+	list-style:none;
+	margin:30px 20px 0 0;
+}
+nav li{
+    background: url("../images/offer_menu_normal.gif") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    font-size: 14px;
+    font-weight: bold;
+    height: 26px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 242px;
+}
+nav li a{
+	color:#645545;
+	text-decoration:none;
+	display:block;
+	padding:6px;
+}
+nav li a:hover, nav li.active a{
+	color:#bda082;
+	}
+nav li:hover, nav li.active {
+  background: url("../images/offer_menu_active.gif") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    font-size: 14px;
+    font-weight: bold;
+    height: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 242px;
+}
+section{
+	float:left;
+	width:80%;
+}
+footer{
+
+	text-align:center;
+	font-size:12px;
+	height:25px;
+	line-height:25px;
+}

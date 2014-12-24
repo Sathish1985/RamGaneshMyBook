@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Book</title>
+		<link rel="stylesheet" type="text/css" href="css/book.css">
+		<script src="js/jquery.min.js"></script>
+	
+	    <script type="text/javascript" src="js/jquery.cycle.all.js"></script> 
+		<script>
+		$(document).ready(function(){
+			$('.coverImg') .cycle({
+				fx: 'fade',
+				timeout: 2000 
+			});
+		});	
+	</script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="clearfix">
+				<div class="logo"><a>My Book's</a></div>
+				<ul class="loginBar">
+					<li><input type="text" id="userName" placeHolder="User name" maxLength="8"><sup>*</sup></li>
+					<li><input type="password" id="Password" placeHolder="password"><sup>*</sup></li>
+					<li><button onclick="signIn()">Sign in</button></li>
+					<div class="inValidMsg" id="inValidMsg"></div>
+				</ul>
+			</header>
+		
+			<div class="coverImg">
+			
+				<img src="images/images3.png"  width="625" alt="jQuery Image slider"></img>
+				<img src="images/images1.jpg"  width="625"  alt="jQuery Image slider"></img>
+				<img src="images/images2.jpg"  width="625"  alt="jQuery Image slider"></img>
+				<img src="images/images4.jpg"  width="625"  alt="jQuery Image slider" title="jQuery Image slider"></img>
+			
+			</div>
+			<footer>Talent Improving exercise, OFS</footer>
+		</div>
+	</body>
+		<script src="js/myBook.js"></script>
+</html>
